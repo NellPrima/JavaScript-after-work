@@ -1,8 +1,11 @@
+let myString = 'Ryu+Ken+Chun-Li+Cammy+Guile+Sakura+Sagat+Juri';
 
-const quoteStart = "Don't judge each day by the harvest you reap ";
+const myArray = myString.split("+");
 
-const quoteEnd = 'but by the seeds that you plant.';
 
-const finalQuote = `${quoteStart}${quoteEnd}`;
 
-console.log(finalQuote);
+const arrayLength = myArray.length;
+
+console.log(myArray);
+
+console.log("The length of this array is: " +   arrayLength);
